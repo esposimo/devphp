@@ -1,0 +1,3 @@
+BIN_PHP=/app/php/bin
+BIN_COMPOSER=/app/composer/
+export PATH=$PATH:$BIN_PHP:$BIN_COMPOSER

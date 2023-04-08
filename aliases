@@ -1,0 +1,7 @@
+switch_php() 
+{
+	unlink /app/php;
+	ln -s /app/php${1} /app/php;
+}
+
+alias sphp=switch_php
